@@ -397,7 +397,8 @@ main .botonSubir {
   text-align: center;
   line-height: 35px;
   color: #ffffff;
-  cursor: pointer; }
+  cursor: pointer;
+  font-size: 25px; }
 
 main .contenidoBlog {
   width: 100%;
@@ -530,7 +531,7 @@ footer .section-footer__icon {
   color: #ffffff; }
 
 footer .section-footer__h5 {
-  text-align: right;
+  text-align: center;
   font-size: 10px; }
 
 @media screen and (max-width: 768px) {
@@ -592,9 +593,10 @@ footer .section-footer__h5 {
     width: 30px;
     height: 30px;
     bottom: 50px;
-    right: 0;
+    right: 7px;
     line-height: 30px;
-    border: 1px solid #ffffff; }
+    border: 1px solid #ffffff;
+    font-size: 17px; }
   main .section-bloque__blog {
     flex-direction: column; }
   main .bloqueLeft {
