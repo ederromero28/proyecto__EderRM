@@ -1,0 +1,117 @@
+@media screen and (max-width:768px) {
+    header{
+        .navbar-nav{
+            text-align: center;
+        }
+        .carousel-slider__container--titulos{
+            font-size: 37px;
+            margin: 50px 0 0 0;
+        }
+        .carousel-slider__container--parrafo{
+            font-size: 13px;
+        }
+    }
+    main{
+        .section-campus__zona{
+            flex-direction: column;
+        }
+        .section-campus__zona--imagen{
+            width: 250px;
+            margin: auto;
+        }
+        .section-campus__wrapper{
+            font-size: 25px;
+        }
+        .section-campus__wrapper--h3{
+            font-size: 25px;
+        }
+        .section-campus__wrapper--span{
+            display: block;
+            margin: 1px 0;
+            font-size: 15px;
+        }
+        .beneficioUni img{
+            width: 290px;
+            margin: auto;
+        }
+        .section-cards__columnas{
+            flex-direction: column;
+        }
+        // NOSOTROS.HTML
+        .section-bloque__nosotros{
+            flex-direction: column;
+        }
+        .sobreNosotros{
+            width: 85%;
+            padding-top: 0;
+        }
+        .beneficioUni img{
+            width: 290px;
+            margin: auto;
+        }
+        // CATEGORIAS.HTML
+        .section-cursos h2{
+            width: 100%;
+        }
+        .section-cursos h3{
+            width: 80%;
+            font-size: 35px;
+            margin: auto;
+        }
+        .section-bloque__cursos{
+            flex-direction: column;
+        }
+        .section-bloque__caja {
+            width: 70%;
+            margin: 10px auto;
+        }
+        .section-carreras{
+            width: 70%;
+        }
+        .section-carreras h3{
+            width: 95%;
+            font-size: 35px;
+            margin: auto;
+        }
+        .section-bloque__carreras{
+            flex-direction: column;
+        }
+        .section-bloque__caja p{
+            padding-bottom: 0;
+        }
+        .botonSubir{
+            width: 30px;
+            height: 30px;
+            bottom: 50px;
+            right: 0;
+            line-height: 30px;
+            border: 1px solid $colorWhite;
+        }
+        // BLOG.HTML
+        .section-bloque__blog{
+            flex-direction: column;
+        }
+        .bloqueLeft{
+            width: 100%;
+            margin: auto;
+        }
+        .bloqueLeft img{
+            width: 100%;
+        }
+        .bloqueLeft h2{
+            font-size: 35px;
+        }
+        .btnNegro{
+            display: inline-block;
+            margin: 10px 0;
+        }
+        .bloqueRigth{
+            width: 100%;
+            padding-left: 0;
+        }
+        //CONTACTO.HTML
+        .section-bloque__columnas{
+            flex-direction: column;
+        }
+    }
+}

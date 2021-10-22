@@ -1,0 +1,86 @@
+@media screen and (max-width:480px) {
+    header{
+        .carousel-slider__container--titulos{
+            font-size: 30px;
+            margin: 40px 0 0 0;
+        }
+        .carousel-slider__container--parrafo{
+            font-size: 12px;
+        }
+    }
+    main{
+        .section-campus__wrapper--span{
+            margin-top: 1px;
+        }
+        .sectionBeneficios{
+            width: 100%;
+        }
+        .beneficioUni{
+            margin: 0;
+        }
+        .beneficioUni img{
+            width: 280px;
+        }
+        .sectionEstudiantes{
+            width: 90%;
+        }
+        .sectionEstudiantes h2{
+            margin: 35px 0;
+        }
+        .nuestrasCategorias{
+            width: 90%;
+            padding: 25px 15px;
+        }
+        .nuestrasCategorias h2{
+            font-size: 25px;
+            padding: 0;
+        }
+        // NOSOTROS.HTML
+        .sobreNosotros{
+            padding-top: 0;
+        }
+        // CATEGORIAS.HTML
+        .section-cursos h2{
+            width: 100%;
+        }
+        .section-cursos h3{
+            width: 90%;
+            font-size: 35px;
+            margin: auto;
+        }
+        .section-bloque__caja{
+            width: 80%;
+        }
+        .section-carreras{
+            width: 80%;
+        }
+        .section-carreras h3{
+            width: 90%;
+            font-size: 35px;
+            margin: auto;
+        }
+        .section-bloque__caja p{
+            padding-bottom: 0;
+        }
+        // BLOG.HTML
+        .bloqueLeft{
+            width: 100%;
+        }
+        .bloqueLeft img{
+            width: 100%;
+            margin-left: 0;
+        }
+        .bloqueLeft h2{
+            font-size: 30px;
+        }
+        .bloqueRigth{
+            width: 100%;
+        }
+        .bloqueRigth h3{
+            margin-left: 0;
+        }
+        .bloqueRigth div{
+            border-bottom: 1px solid #ff0000;
+        }
+    }
+}

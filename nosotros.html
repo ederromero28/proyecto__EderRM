@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La universidad Mundo|Idea es una de las más destacadas mundialmente en el rubro de la tecnología, puedes leer una breve historia sobre nosotros.">
+    <meta name="keywords"  content="INFORMACION DE LA UNIVERSIDAD, CONTACTARNOS">
+    <title>Mundo Idea | Nosotros</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <!-- cdn icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <!-- Inicio de Header -->
+    <!-- BEM = BLOQUE ELEMENTO MODIFICADOR -->
+    <header class="header">
+        <section class="header-section">
+            <nav class="navbar nav-index navbar-expand-lg navbar-light fixed-top">
+                <div class="container nav-index__container">
+                    <a href="index.html"><img src="img/logo.png" class="nav-index__imgLogo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-index__links" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-index__ul ms-auto mb-2 mb-lg-0"><!-- ms-auto= posiciona el navbar-nav a lado derecho -->
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown nav-index__li">
+                                <a class="nav-link dropdown-toggle nav-index__li--enlaces" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu subMenu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item nav-index__li--subMenu" href="categorias.html">Programación</a></li>
+                                    <li><a class="dropdown-item nav-index__li--subMenu" href="categorias.html">Diseño UX/UI</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="section__carousel-slider">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-slider__items">
+                    <div class="carousel-item active carousel-slider__imagenes" style="background-image: url('img/banner_nosotros1.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h1 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">NOSOTROS</h1>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-slider__imagenes" style="background-image: url('img/banner_nosotros2.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h2 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">NOSOTROS</h2>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-slider__imagenes" style="background-image: url('img/banner_nosotros3.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h2 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">NOSOTROS</h2>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- Fin de Header -->
+    <!-- Inicio de main -->
+    <main>
+        <!-- Info de NOSOTROS -->
+        <section class="sobreNosotros">
+            <div class="section-bloque__nosotros">
+                <div class="nosotrosColumna">
+                    <h2 class="wow animate__animated animate__fadeInLeft">Somos la universidad más grande del mundo</h2>
+                    <p class="wow animate__animated animate__fadeInLeft">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi neque blanditiis necessitatibus cupiditate quibusdam tenetur optio laudantium fuga eveniet esse non exercitationem aperiam, perferendis autem, recusandae et, amet molestias error velit quas numquam repudiandae. Enim ipsam quod quaerat aliquid numquam necessitatibus assumenda mollitia dolore, dignissimos vel rem veritatis libero, corporis, amet earum consectetur porro dolor. Quia quos adipisci ab consequuntur sit, sapiente eveniet, minus voluptate corrupti eos, labore vitae? Provident nesciunt obcaecati dolorum voluptate asperiores aliquam neque saepe fuga vel, officiis harum at autem quos quibusdam incidunt cumque quis eveniet ut, in ab vitae similique magni assumenda distinctio! Minima, dignissimos.</p>
+                    <a href="#" class="btnNegro">Contactanos</a>
+                </div>
+                <div class="nosotrosColumna wow animate__animated animate__fadeInRight">
+                    <img src="./img/sobre-nosotros.jpg" alt="nosotros">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Fin de main -->
+    <!-- Inicio de footer -->
+    <footer class="bg-dark text-white pt-3 pb-4">
+        <section class="section-footer">
+            <div class="container text-center text-md-start section-footer__container">
+                <div class="row text-center text-md-start section-footer__row">
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp section-footer__items">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Guía rápida</h4>
+                        <a href="index.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Inicio</a>
+                        <a href="nosotros.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Nosotros</a>
+                        <a href="categorias.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Categorías</a>
+                        <a href="blog.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Blog</a>
+                        <a href="contacto.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Contacto</a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Contactanos</h4>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-phone-alt"></i>+51 999 999 999</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-envelope"></i>infouni@gmail.com</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-map-marker-alt"></i>Av. Arequipa 265, Lima-Centro</a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Nuestras redes sociales</h4>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-facebook-f"></i>Facebook</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-twitter"></i>Twitter</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-instagram"></i>Instagram</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-linkedin"></i>Linkedin</a>
+                    </div>
+                </div>
+                <h5 class="section-footer__h5">&copy;Todos los derechos reservados - Eder RM. | CoderHouse </h5>
+            </div>
+        </section>
+    </footer>
+    <!-- Fin de footer -->
+
+    <!-- Js Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mundo|Idea una de las mejores universidades con la mejor tecnología hoy en día para un futuro mejor. Visita nuestras categorías y contáctanos para más información.">
+    <meta name="keywords"  content="CAMPUS SEDES, BENEFICIOS , IR CATEGORIAS, CONTACTARNOS">
+    <title>Universidad | Mundo Idea</title>
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Azeret+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+    <!-- cdn icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <!-- Inicio de Header -->
+    <!-- BEM = BLOQUE ELEMENTO MODIFICADOR -->
+    <header class="header">
+        <section class="header-section">
+            <nav class="navbar nav-index navbar-expand-lg navbar-light fixed-top">
+                <div class="container nav-index__container">
+                    <a href="index.html"><img src="img/logo.png" class="nav-index__imgLogo" alt="logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse nav-index__links" id="navbarSupportedContent">
+                        <ul class="navbar-nav nav-index__ul ms-auto mb-2 mb-lg-0"><!-- ms-auto= posiciona el navbar-nav a lado derecho -->
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown nav-index__li">
+                                <a class="nav-link dropdown-toggle nav-index__li--enlaces" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Categorías
+                                </a>
+                                <ul class="dropdown-menu subMenu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item nav-index__li--subMenu" href="categorias.html">Programación</a></li>
+                                    <li><a class="dropdown-item nav-index__li--subMenu" href="categorias.html">Diseño UX/UI</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="blog.html">Blog</a>
+                            </li>
+                            <li class="nav-item nav-index__li">
+                                <a class="nav-link nav-index__li--enlaces" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section class="section__carousel-slider">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-slider" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner carousel-slider__items">
+                    <div class="carousel-item active carousel-slider__imagenes" style="background-image: url('img/banner_1.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h1 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">MUNDO IDEA | UNIVERSIDAD</h1>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-slider__imagenes" style="background-image: url('img/banner_2.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h2 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">MUNDO IDEA | UNIVERSIDAD</h2>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item carousel-slider__imagenes" style="background-image: url('img/banner_3.jpg');">
+                        <div class="container carousel-slider__container">
+                            <h2 class="carousel-slider__container--titulos animate__animated animate__bounceInDown animate__delay-.5s">MUNDO IDEA | UNIVERSIDAD</h2>
+                            <p class="carousel-slider__container--parrafo animate__animated animate__backInUp animate__delay-1s">Una de las mejores universidades en el mundo, brindando <br> soluciones con las mejores tecnologías del futuro.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </header>
+    <!-- Fin de Header -->
+    <!-- Inicio de main -->
+    <main>
+        <!-- Nuestras sedes -->
+        <section class="section-campus">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 section-campus__titulo wow animate__animated animate__fadeInLeft">
+                        <h2 class="section-campus__titulo--h2">NUESTRAS SEDES</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInLeft">
+                        <div class="section-campus__zona">
+                            <div class="section-campus__wrapper">
+                                <h3 class="section-campus__wrapper--h3">Campus <span class="section-campus__wrapper--span"> Zona Sur </span></h3>
+                            </div>
+                            <img src="img/zona-sur.jpg" class="section-campus__zona--imagen" alt="Campus Sur">
+                            <p class="section-campus__zona--parrafo">¡Estamos cerca de ti! Ubícanos en Panamericana Sur Km 25, al costado de la municipalidad de San Juan de Miraflores. En esta sede amplia y moderna, puedes estudiar carreras de Negocios, Tecnología y Comunicaciones. Acércate y recibe una visita guiada y una clase gratis.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInUp">
+                        <div class="section-campus__zona">
+                            <div class="section-campus__wrapper">
+                                <h3 class="section-campus__wrapper--h3">Campus <span class="section-campus__wrapper--span"> Zona Centro </span></h3>
+                            </div>
+                            <img src="img/zona-centro.jpg" class="section-campus__zona--imagen" alt="Campus Centro">
+                            <p class="section-campus__zona--parrafo">Encuéntranos en el centro, estamos en la Av. Arequipa 265, Lima. En este nuevo campus te ofrecemos carreras referentes a Tecnología y Diseño UX/UI. Además, cursos de formación continua, como: Cursos de Office, Cursos de Gestión, Cursos de Diseño, Cursos de Microsoft Excel, y Cursos de Diseño Gráfico Digital.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__fadeInRight">
+                        <div class="section-campus__zona">
+                            <div class="section-campus__wrapper">
+                                <h3 class="section-campus__wrapper--h3">Campus <span class="section-campus__wrapper--span"> Zona Norte </span></h3>
+                            </div>
+                            <img src="img/zona-norte.jpg" class="section-campus__zona--imagen" alt="Campus Norte">
+                            <p class="section-campus__zona--parrafo">Ahora nos encontramos a 5 minutos de Mega Plaza, en la Av. Izaguirre 320. Mas cerca de ti. Ven a especializarte, tenemos carreras de: Diseño Gráfico, Tecnología de la Información y Comunicaciones. También podrás tomar cursos libres de Ingles, Cursos de Animación y Cursos de Locución.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nuestros Beneficios -->
+        <section class="sectionBeneficios">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 wow animate__animated animate__fadeInLeft">
+                        <h2>NUESTROS BENEFICIOS</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__flipInY">
+                        <div class="beneficioUni">
+                            <img src="img/biblioteca.jpg" alt="Biblioteca-Mundial">
+                            <h3>Biblioteca de clase mundial</h3>
+                            <p>Contamos con una nueva biblioteca física, con un ambiente fresco e ideal para ti. Inauguramos otra biblioteca virtual, la cual cuenta con gran variedad de libros nacionales e internacionales. Esta se halla interconectada con la Universidad de Harvard. Por esto, podrás acceder a lecturas en español e inglés.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__flipInY">
+                        <div class="beneficioUni">
+                            <img src="img/lab-computo.jpg" alt="Labotario de Computo">
+                            <h3>Laboratorio de computo</h3>
+                            <p>En nuestro laboratorio, puedes usar máquinas de última generación con sistemas operativos actualizados en el mercado como MAC y Windows 11. Navegaras con un internet sin interrupciones ni demoras. Esta área está disponible todo el tiempo, para que realices tus tareas individuales y grupales.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow animate__animated animate__flipInY">
+                        <div class="beneficioUni">
+                            <img src="img/empleo.jpg" alt="Empleo Beneficios">
+                            <h3>Empleo en empresas reconocidas</h3>
+                            <p>Tendrás acceso a ofertas laborales desde el tercer ciclo, para que desarrolles las destrezas aprendidas. A través del aula virtual, postularas a las empresas que tu escojas. Te ayudamos a elaborar tu Currículum Vitae, con los últimos tips de éxito.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nuestros Estudiantes Opinan -->
+        <section class="sectionEstudiantes">
+            <h2 class="wow animate__animated animate__fadeInLeft">Lo que dicen nuestros estudiantes</h2>
+            <div class="section-cards__columnas">
+                <div class="testimonioEstudiante wow animate__animated animate__rotateInDownLeft">
+                    <img src="img/user1.jpg" alt="usuario1">
+                    <div>
+                        <h3>Usuario1</h3>
+                        <p>Aprendí bien sobre mi carrera de Sistemas. Actualmente soy jefe del Área de Tecnología en Intralot. Recomiendo a todas mis amistades optar por esta fabulosa universidad. También, me dejaron el consejo de siempre especializarme y seguir desarrollando mis capacidades con lo último de la tecnología.</p>
+                        <p>⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="testimonioEstudiante wow animate__animated animate__rotateInDownRight">
+                    <img src="img/user2.jpg" alt="usuario2">
+                    <div>
+                        <h3>Usuario2</h3>
+                        <p>Mundo Idea me abrió las puertas a la tecnología. Me sentí parte de la familia de estudios. Los profesores son capacitados con técnicas novedosas de enseñanza. Le agradezco a la universidad por tanto. Además, ingrese a trabajar desde el tercer ciclo. Una experiencia espectacular.</p>
+                        <p>⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Nuestras Nuevas Categorias -->
+        <section>
+            <div class="nuestrasCategorias wow animate__animated animate__zoomIn">
+                <h2>Mira nuestras diversas categorías en línea <br> y escribenos de cualquier parte del mundo</h2>
+                <a href="categorias.html" class="btnGlobal">CATEGORIAS</a>
+            </div>
+        </section>
+    </main>
+    <!-- Fin de main -->
+    <!-- Inicio de footer -->
+    <footer class="bg-dark text-white pt-3 pb-4">
+        <section class="section-footer">
+            <div class="container text-center text-md-start section-footer__container">
+                <div class="row text-center text-md-start section-footer__row">
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp section-footer__items">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Guía rápida</h4>
+                        <a href="index.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Inicio</a>
+                        <a href="nosotros.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Nosotros</a>
+                        <a href="categorias.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Categorías</a>
+                        <a href="blog.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Blog</a>
+                        <a href="contacto.html" class="section-footer__ref"><i class="section-footer__icon fas fa-chevron-right"></i>Contacto</a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Contactanos</h4>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-phone-alt"></i>+51 999 999 999</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-envelope"></i>infouni@gmail.com</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fas fa-map-marker-alt"></i>Av. Arequipa 265, Lima-Centro</a>
+                    </div>
+                    <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mt-3 wow animate__animated animate__zoomInUp">
+                        <h4 class="text-capitalize mb-4 section-footer__h4">Nuestras redes sociales</h4>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-facebook-f"></i>Facebook</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-twitter"></i>Twitter</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-instagram"></i>Instagram</a>
+                        <a href="#" class="section-footer__ref"><i class="section-footer__icon fab fa-linkedin"></i>Linkedin</a>
+                    </div>
+                </div>
+                <h5 class="section-footer__h5">&copy;Todos los derechos reservados - Eder RM. | CoderHouse </h5>
+            </div>
+        </section>
+    </footer>
+    <!-- Fin de footer -->
+
+    <!-- Js Bootstrap  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <!-- WOW JS -->
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

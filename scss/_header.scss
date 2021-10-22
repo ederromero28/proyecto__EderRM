@@ -1,0 +1,93 @@
+header{
+    .navbar{
+        background: $colorBlack;
+    }
+    .nav-index__imgLogo{
+        margin: auto;
+        width: 150px;
+    }
+    .nav-index__container{
+        margin-top: 5px;
+        font-size: 0;
+    }
+    .navbar-toggler{
+        padding: 2px 5px;
+        font-size: 17px;
+        line-height: 0.3;
+        background: #c71515;
+    }
+    .nav-index__li{
+        display: inline-block;
+        position: relative;
+        margin-left: 30px;
+        font-size: 18px;
+    }
+    .nav-index__li::after{
+        content: '';
+        width: 0%;
+        height: 2px;
+        background: $colorOrange;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    .nav-index__li:hover::after{
+        width: 100%;
+    }
+    .nav-index__li--enlaces{
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+        color: $colorWhite!important;
+        z-index: 99999999;
+        text-decoration: none;
+    }
+    .subMenu{
+        background: $bgTestimonio;
+    }
+    .nav-index__li--subMenu{
+        color: $colorWhite;
+    }
+    .nav-index__li--subMenu:hover{
+        background-color: $colorOrange;
+        color: $colorWhite
+    }
+    .carousel-slider__imagenes{
+        min-height: 100vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        z-index: 1;
+    }
+    .carousel-slider__imagenes::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: -1;
+    }
+    .categoriasImagenes{
+        @extend .carousel-slider__imagenes;
+        margin-top: -60px;
+    }
+    .carousel-slider__container{
+        position: absolute;
+        text-align: center;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .carousel-slider__container--titulos{
+        font-size: 60px;
+        color: $colorWhite;
+        margin: 0 0 10px;
+    }
+    .carousel-slider__container--parrafo{
+        font-size: 20px;
+        color: $colorWhite;
+        margin: 0;
+    }
+}

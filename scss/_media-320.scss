@@ -1,0 +1,98 @@
+@media screen and (max-width:320px) {
+    header{
+        .nav-index__li{
+            margin-left: 0;
+            font-size: 11px;
+            padding: 5px;
+        }
+        .carousel-slider__container--titulos{
+            font-size: 28px;
+            margin: 100px 0 0 0;
+        }
+        .carousel-slider__container--parrafo{
+            font-size: 12px;
+        }
+    }
+    main{
+        .section-campus__zona--imagen{
+            width: 230px;
+        }
+        .section-campus__wrapper--span{
+            margin-top: 1px;
+        }
+        .sectionBeneficios{
+            width: 100%;
+        }
+        .beneficioUni img{
+            width: 230px;
+        }
+        .sectionEstudiantes{
+            width: 100%;
+        }
+        .sectionEstudiantes h2{
+            font-size: 35px;
+        }
+        .section-cards__columnas{
+            flex-direction: column;
+            width: 90%;
+            margin: 10px auto;
+        }
+        .testimonioEstudiante{
+            flex-direction: column;
+        }
+        .testimonioEstudiante img{
+            margin: 0 auto 10px auto;
+        }
+        .nuestrasCategorias{
+            width: 90%;
+            padding: 40px 0;
+        }
+        .nuestrasCategorias h2{
+            padding: 5px;
+            font-size: 25px;
+        }
+        // NOSOTROS.HTML
+        .sobreNosotros{
+            width: 90%;
+            padding-top: 20px;
+        }
+        .nosotrosColumna h2{
+            font-size: 30px;
+        }
+        // CATEGORIAS.HTML
+        .section-cursos{
+            width: 100%;
+        }
+        .section-cursos h2 {
+            width: 90%;
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+        .section-cursos h3{
+            width: 70%;
+            margin: auto;
+            font-size: 30px;
+        }
+        .section-bloque__caja{
+            width: 90%;
+        }
+        .section-carreras{
+            width: 100%;
+        }
+        .section-carreras h3{
+            width: 70%;
+            margin: auto;
+            font-size: 30px;
+        }
+        .section-carreras h4{
+            font-size: 20px;
+        }
+        .section-bloque__caja p{
+            padding-bottom: 0;
+        }
+        // BLOG.HTML
+        .bloqueLeft h2{
+            font-size: 20px;
+        }
+    }
+}

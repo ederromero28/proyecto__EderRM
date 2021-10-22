@@ -1,0 +1,374 @@
+main{
+    .section-campus{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .section-campus__titulo--h2{
+        margin-bottom: 60px;
+    }
+    .section-campus__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .section-campus__wrapper--h3{
+        font-size: 30px;
+    }
+    .section-campus__wrapper--span{
+        display: block;
+        color: $colorBlack;
+        font-size: 20px;
+    }
+    .section-campus__zona--imagen{
+        width: 80%;
+        height: 70%;
+        border-radius: 10px;
+    }
+    .section-campus__zona--parrafo{
+        text-align: left;
+        margin: 0 30px;
+    }
+    .sectionBeneficios{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    .sectionBeneficios h2{
+        margin-bottom: 60px;
+    }
+    .beneficioUni{
+        margin: 0 25px 5% 25px;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .beneficioUni img{
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+    }
+    .beneficioUni h3{
+        text-align: center;
+    }
+    .beneficioUni p{
+        margin: 0 15px;
+    }
+    .sectionEstudiantes{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .section-cards__columnas{
+        @include cajas($bgWhite);
+    }
+    .sectionEstudiantes h2{
+        margin-bottom: 60px;
+    }
+    .testimonioEstudiante{
+        display: flex;
+        flex-basis: 44%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        background: $bgTestimonio;
+        padding: 25px;
+        cursor: pointer;
+    }
+    .testimonioEstudiante img{
+        width: 70px;
+        height: 70px;
+        margin: 0 20px 0 5px;
+        border-radius: 50%;
+    }
+    .testimonioEstudiante h3{
+        margin-top: 15px;
+        text-align: center;
+        color: #f74d41;
+    }
+    .testimonioEstudiante p{
+        color: $colorWhite;
+        text-align: center;
+        padding: 0;
+    }
+    .nuestrasCategorias{
+        margin: 100px auto;
+        width: 80%;
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/banner2.jpg");
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 70px 0;
+    }
+    .nuestrasCategorias h2{
+        color: $colorWhite;
+        margin-bottom: 40px;
+        padding: 0 50px;
+        font-size: 35px;
+    }
+    .btnGlobal{
+        text-decoration: none;
+        font-size: 18px;
+        color: $colorWhite;
+        border: 3px solid $colorWhite;
+        padding: 10px;
+    }
+    .btnGlobal:hover{
+        background-color: $colorOrange;
+        text-decoration: none;
+        font-size: 18px;
+        color: $colorWhite;
+        font-weight: 700;
+        padding: 13px;
+        transition: all 1s ease;
+    }
+    // NOSOTROS.HTML
+    .sobreNosotros{
+        width: 100%;
+        margin: auto;
+    }
+    .section-bloque__nosotros{
+        @include cajas($bgSecundario);
+    }
+    .nosotrosColumna{
+        flex-basis: 48%;
+        padding: 30px 2px;
+        margin: 0 50px;
+    }
+    .nosotrosColumna img {
+        width: 100%;
+    }
+    .nosotrosColumna h2{
+        padding-top: 0;
+        text-align: left;
+        font-size: 40px;
+        font-weight: 600;
+        color: $colorTextH2;
+    }
+    .nosotrosColumna p{
+        padding: 15px 0 25px;
+    }
+    .btnNegro{
+        @extend .btnGlobal;
+        border: 1px solid $colorBlack;
+        color: $colorBlack;
+        font-weight: 800;
+        font-size: 15px;
+    }
+    // CATEGORIAS.HTML
+    // SECTION CURSOS
+    .section-cursos{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .section-cursos h2{
+        width: 50%;
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        color: $colorTextH2;
+        margin: 50px auto 40px auto;
+        border: 5px dashed #168674;
+    }
+    .section-cursos h3{
+        font-size: 50px;
+        background-color: $colorOrange;
+        color: $colorWhite;
+    }
+    .section-bloque__cursos{
+        @include cajas($bgWhite);
+    }
+    .section-bloque__caja{
+        flex-basis: 31%;
+        border: 1px solid $colorBlack;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 10px 5px;
+        box-sizing: border-box;
+        transition: 0.5s;
+    }
+    .section-bloque__caja ul li{
+        justify-content: space-between;
+        padding: 10px 0;
+        list-style-type: none;
+        font-size: 20px;
+    }
+    .section-bloque__caja ul li a{
+        text-decoration: none;
+        color: $colorBlack;
+        margin-right: 20px;
+    }
+    .section-bloque__caja:hover{
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.644);
+        border: 3px solid $colorOrange;
+    }
+    .section-bloque__caja ul li a:hover{
+        text-decoration: underline;
+        padding: 0 5px;
+        background: $colorOrange;
+        color: $colorWhite;
+        transition: all .5s ease;
+    }
+    // SECTION CARRERAS
+    .section-carreras{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .section-carreras h3{
+        font-size: 50px;
+        background: $bgTestimonio;
+        color: $colorWhite;
+    }
+    .section-bloque__carreras{
+        @include cajas($bgWhite);
+    }
+    .section-carreras h4{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 21px;
+    }
+    .section-bloque__caja--sinBordes{
+        @extend .section-bloque__caja;
+        border: none;
+    }
+    .section-bloque__caja--sinBordes:hover{
+        @extend .section-bloque__caja;
+        border: 3px solid rgba(0, 0, 0, 0.644);
+    }
+    .section-bloque__caja img{
+        width: 100%;
+        height: 50%;
+        border: 1px solid $colorBlack;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .section-bloque__caja p{
+        padding-bottom: 50px;
+    }
+    .botonSubir{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        border: 2px solid $colorWhite;
+        bottom: 20px;
+        right: 10px;
+        background: $colorOrange;
+        text-align: center;
+        line-height: 35px;
+        color: $colorWhite;
+        cursor: pointer;
+    }
+    // BLOG.HTML
+    .contenidoBlog{
+        width: 100%;
+        padding: 60px 0;
+    }
+    .section-bloque__blog{
+        display: flex;
+        width: 100%;
+        margin: auto;
+        background-color: $bgfondo;
+        padding: 20px;
+    }
+    .bloqueLeft{
+        flex-basis: 65%;
+    }
+    .bloqueLeft img{
+        width: 100%;
+    }
+    .bloqueLeft h2{
+        color: #222222;
+        font-weight: 600;
+        margin: 30px 0;
+    }
+    .bloqueLeft p{
+        color: #777272;
+        padding: 0;
+    }
+    .bloqueRigth{
+        flex-basis: 40%;
+        padding-left: 40px;
+    }
+    .bloqueRigth h3{
+        background: $colorOrange;
+        color: $colorWhite;
+        padding: 7px 0;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .bloqueRigth div{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-sizing: border-box;
+    }
+    .bloqueRigth div span{
+        color: #555555;
+        padding: 8px;
+        font-size: 15px;
+    }
+    // CONTACTO.HTML
+    .sectionGps{
+        width: 100%;
+        margin-top: 5%;
+    }
+    .sectionGps h2{
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+    .localizacion{
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    .localizacion__iframe{
+        width: 90%;
+        padding-bottom: 50px;
+    }
+    .contact-us{
+        width: 80%;
+        margin: auto;
+    }
+    .section-bloque__columnas{
+        @include cajas($bgWhite);
+    }
+    .contact-col{
+        flex-basis: 48%;
+        margin-bottom: 30px;
+    }
+    .contact-col div{
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    .contact-col div .fas,
+    .contact-col div .far{
+        font-size: 25px;
+        color: $colorOrange;
+        margin: 10px;
+        margin-right: 30px;
+    }
+    .contact-col div p{
+        padding: 0;
+    }
+    .contact-col div h5 {
+        font-size: 20px;
+        margin-bottom: 5px;
+        color: $colorBlack;
+        font-weight: 400;
+        box-sizing: border-box;
+    }
+    .contact-col input, .contact-col textarea {
+        width: 100%;
+        padding: 15px;
+        margin-bottom: 17px;
+        outline: none;
+        border: 1px solid $colorBlack;
+        box-sizing: border-box;
+    }
+}
