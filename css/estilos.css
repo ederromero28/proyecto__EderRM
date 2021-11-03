@@ -579,10 +579,10 @@ footer .section-footer__h5 {
   main .section-bloque__cursos {
     flex-direction: column; }
   main .section-bloque__caja, main .section-bloque__caja--sinBordes, main .section-bloque__caja--sinBordes:hover {
-    width: 70%;
+    width: 90%;
     margin: 10px auto; }
   main .section-carreras {
-    width: 70%; }
+    width: 80%; }
   main .section-carreras h3 {
     width: 95%;
     font-size: 35px;
@@ -590,7 +590,8 @@ footer .section-footer__h5 {
   main .section-bloque__carreras {
     flex-direction: column; }
   main .section-bloque__caja p, main .section-bloque__caja--sinBordes p, main .section-bloque__caja--sinBordes:hover p {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    font-size: 17px; }
   main .botonSubir {
     width: 30px;
     height: 30px;
@@ -648,7 +649,8 @@ footer .section-footer__h5 {
   main .nosotrosColumna h2 {
     font-size: 30px; }
   main .section-cursos h2 {
-    width: 100%; }
+    width: 100%;
+    font-size: 31px; }
   main .section-cursos h3 {
     width: 90%;
     font-size: 35px;
@@ -662,7 +664,8 @@ footer .section-footer__h5 {
     font-size: 35px;
     margin: auto; }
   main .section-bloque__caja p, main .section-bloque__caja--sinBordes p, main .section-bloque__caja--sinBordes:hover p {
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    font-size: 14px; }
   main .bloqueLeft {
     width: 100%; }
   main .bloqueLeft img {
