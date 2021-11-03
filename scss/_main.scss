@@ -26,7 +26,7 @@ main{
         border-radius: 10px;
     }
     .section-campus__zona--parrafo{
-        text-align: left;
+        text-align: center;
         margin: 0 30px;
     }
     .sectionBeneficios{
@@ -70,7 +70,6 @@ main{
         display: flex;
         flex-basis: 44%;
         border-radius: 10px;
-        margin-bottom: 5%;
         text-align: left;
         background: $bgTestimonio;
         padding: 25px;
@@ -78,7 +77,7 @@ main{
     }
     .testimonioEstudiante img{
         width: 70px;
-        height: 70px;
+        height: 60px;
         margin: 0 20px 0 5px;
         border-radius: 50%;
     }
@@ -95,7 +94,7 @@ main{
     .nuestrasCategorias{
         margin: 100px auto;
         width: 80%;
-        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/banner2.jpg");
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("../img/index-categoria.jpg");
         background-position: center;
         background-size: cover;
         border-radius: 10px;
@@ -241,13 +240,13 @@ main{
     }
     .section-bloque__caja img{
         width: 100%;
-        height: 50%;
+        height: 40%;
         border: 1px solid $colorBlack;
         border-radius: 10px;
         cursor: pointer;
     }
     .section-bloque__caja p{
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
     .botonSubir{
         position: fixed;
